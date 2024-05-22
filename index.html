@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./app.js" defer></script>
+    <base href="./Assets/">
+</head>
+
+<body>
+    <header>
+        <div class="nav">
+            <p>Today</p>
+            <input type="text" id="input-text" placeholder="e.g. Buy groceries">
+            <button class="submit-btn" id="addTask" type="submit">Add Task</button>
+        </div>
+    </header>
+    <main>
+        <section class="stats">
+            <div class="stats-con">
+                <div class="count">
+
+                    <p>Remaining</p>
+                    <span class="count-num" id="remain" </span>
+                </div>
+                <div class="count">
+                    <p>Completed</p>
+                    <span class="count-num" id="completed">0</span>
+                </div>
+                <div class="count">
+                    <p>Total</p>
+                    <span class="count-num" id="Total">0</span>
+                </div>
+            </div>
+            <div class="delbtn" id="delallBtn"><button>Delete All</button></div>
+        </section>
+        <section class="task-section" id="taskCont">
+
+        </section>
+        <section class="credits">
+            <p>Design and Code by <a target="blank" href="https://github.com/razzaque78656">Raza</a></p>
+        </section>
+    </main>
+</body>
+
+</html>
