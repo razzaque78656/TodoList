@@ -1,0 +1,20 @@
+{
+    "name": "Todo List Mady By Raza",
+    "short_name":"TodoList",
+    "start_url":".",
+    "background_color":"#6dcdb1",
+    "theme_color":"#009578",
+    "display":"standalone",
+    "icons":[
+        {
+            "src":"todo-Icon.png",
+            "sizes":"512x512",
+            "type":"image/png"
+        },
+        {
+            "src":"Icon-animatied.gif",
+            "sizes":"640x640",
+            "type":"image/gif"
+        }
+    ]
+}
